@@ -11,6 +11,9 @@ keymap.set({ "n", "v" }, "t", "<S-$>")
 keymap.set({ "n", "v" }, "<S-T>", "^^")
 keymap.set("n", "<CR>", "o<Esc>")
 
+-- restart neovim
+keymap.set("n", "<leader>ps" ":restart")
+
 -- Tabs
 keymap.set("n", "<leader>t", ":$tabnew<CR>")
 keymap.set("n", "<leader><S-t>", ":tabclose<CR>")
