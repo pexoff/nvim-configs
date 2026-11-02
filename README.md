@@ -77,3 +77,5 @@ The install script clones via HTTPS (read-only). Switch to SSH to push:
 ```bash
 git -C ~/.local/share/nvim-configs remote set-url origin git@github.com:pexoff/nvim-configs.git
 ```
+
+this is a test to verify auto config load and git pull on neovim start.
